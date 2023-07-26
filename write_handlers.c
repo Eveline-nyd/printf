@@ -80,7 +80,9 @@ length, padd, extra_ch));
 * @padd: padding char
 * @extra_c: Extra char
 * Return: Number of printed chars.
-*/ 
+*
+*/
+
 int write_num(int ind, char buffer[],
 int flags, int width, int prec,
 int length, char padd, char extra_c)
